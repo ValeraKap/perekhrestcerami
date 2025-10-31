@@ -1,0 +1,16 @@
+[30-Aug-2024 15:43:52 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'extractvalue(1,concat(0x7e,0x6378657378,0x7e))' at line 1<br />Error No: 1064<br />SELECT * FROM `oc_divido_lookup` WHERE `order_id` = 1 extractvalue(1,concat(0x7e,0x6378657378,0x7e))' in /home/perekhrestcerami/public_html/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/keramikadecorcom/storage/modification/system/library/db.php(29): DB\MySQLi->query('SELECT * FROM `...', Array)
+#1 /home/perekhrestcerami/public_html/catalog/model/extension/payment/divido.php(115): DB->query('SELECT * FROM `...')
+#2 [internal function]: ModelExtensionPaymentDivido->getLookupByOrderId('1 extractvalue(...')
+#3 /home/keramikadecorcom/storage/modification/system/engine/loader.php(193): call_user_func_array(Array, Array)
+#4 [internal function]: Loader->{closure}(Array, Array)
+#5 /home/keramikadecorcom/1.keramikadecor.c in /home/perekhrestcerami/public_html/system/library/db/mysqli.php on line 40
+[30-Oct-2025 19:30:03 UTC] PHP Fatal error:  Call to undefined function json_decode() in /home/perekhrestcerami/public_html/catalog/controller/startup/startup.php on line 31
+[30-Oct-2025 19:30:04 UTC] PHP Fatal error:  Call to undefined function json_decode() in /home/perekhrestcerami/public_html/catalog/controller/startup/startup.php on line 31
+[30-Oct-2025 19:31:08 UTC] PHP Fatal error:  Call to undefined function json_decode() in /home/perekhrestcerami/public_html/catalog/controller/startup/startup.php on line 31
+[30-Oct-2025 19:31:09 UTC] PHP Fatal error:  Call to undefined function json_decode() in /home/perekhrestcerami/public_html/catalog/controller/startup/startup.php on line 31
+[30-Oct-2025 19:31:10 UTC] PHP Fatal error:  Call to undefined function json_decode() in /home/perekhrestcerami/public_html/catalog/controller/startup/startup.php on line 31
+[30-Oct-2025 19:32:00 UTC] PHP Fatal error:  Call to undefined function json_decode() in /home/perekhrestcerami/public_html/catalog/controller/startup/startup.php on line 31
+[30-Oct-2025 19:32:04 UTC] PHP Fatal error:  Call to undefined function Session\json_decode() in /home/perekhrestcerami/public_html/system/library/session/db.php on line 24
+[30-Oct-2025 19:32:04 UTC] PHP Fatal error:  Call to undefined function json_decode() in /home/perekhrestcerami/public_html/catalog/controller/startup/startup.php on line 31
